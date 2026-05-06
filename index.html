@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO -->
+  <title>Crafty Cleaning LLC | Professional House Cleaning in Jacksonville, FL</title>
+  <meta name="description" content="Crafty Cleaning LLC — Jacksonville FL's trusted house cleaning service. Deep cleaning, move-in/move-out, residential & commercial. 5-star rated. Get a free quote today!" />
+  <meta name="keywords" content="house cleaning Jacksonville FL, maid service Jacksonville, deep cleaning Jacksonville, move out cleaning Jacksonville, residential cleaning Jacksonville, Crafty Cleaning LLC, Alyssa cleaning service" />
+  <link rel="canonical" href="https://craftycleaningllc.com/" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://craftycleaningllc.com/" />
+  <meta property="og:title" content="Crafty Cleaning LLC | Professional Cleaning in Jacksonville, FL" />
+  <meta property="og:description" content="5-star rated cleaning service in Jacksonville, FL. Deep cleans, move-in/move-out, residential & commercial. Owner-operated, fully insured. Book your free quote!" />
+  <meta property="og:image" content="https://craftycleaningllc.com/untitled folder/logo.JPG" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Crafty Cleaning LLC | Jacksonville FL" />
+  <meta name="twitter:description" content="Premium cleaning services in Jacksonville, FL. 156+ happy clients. 5-star Google rated. Get your free quote!" />
+  <meta name="twitter:image" content="https://craftycleaningllc.com/untitled folder/logo.JPG" />
+
+  <!-- JSON-LD LocalBusiness Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://craftycleaningllc.com/",
+    "name": "Crafty Cleaning LLC",
+    "description": "Premium residential and commercial cleaning services in Jacksonville, FL. Deep cleaning, move-in/move-out, post-construction. 100% satisfaction guaranteed.",
+    "url": "https://craftycleaningllc.com",
+    "telephone": "+19044142494",
+    "email": "Craftycleaner.llc@gmail.com",
+    "priceRange": "$$",
+    "image": "https://craftycleaningllc.com/untitled folder/logo.JPG",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Jacksonville",
+      "addressRegion": "FL",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 30.3322,
+      "longitude": -81.6557
+    },
+    "areaServed": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": 30.3322,
+        "longitude": -81.6557
+      },
+      "geoRadius": "24140"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "opens": "08:00",
+        "closes": "18:00"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "156"
+    },
+    "sameAs": ["https://share.google/dud8MLlk3FIQg5nmd"]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Bubble cursor canvas -->
+  <canvas id="bubbleCanvas"></canvas>
+
+  <!-- Custom cursor dot -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <header class="nav-wrapper" id="navbar">
+    <nav class="nav-inner">
+      <a href="#home" class="nav-logo">
+        <img src="untitled folder/logo.JPG" alt="Crafty Cleaning LLC" class="logo-img" />
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#process">How It Works</a></li>
+        <li><a href="#gallery">Before &amp; After</a></li>
+        <li><a href="#service-area">Service Area</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact" class="nav-cta">Book Now</a></li>
+      </ul>
+      <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ============================================================
+       HERO
+  ============================================================ -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-orb hero-orb-1"></div>
+      <div class="hero-orb hero-orb-2"></div>
+      <div class="hero-orb hero-orb-3"></div>
+      <div class="hero-grid-lines"></div>
+    </div>
+
+    <div class="hero-content container">
+      <div class="hero-text" data-reveal>
+        <span class="hero-eyebrow">
+          <span class="eyebrow-dot"></span>
+          Premium Cleaning Services
+          <span class="eyebrow-dot"></span>
+        </span>
+        <h1>Your Space<br />Deserves<br /><em>The Best.</em></h1>
+        <p class="hero-sub">Crafty Cleaning LLC delivers spotless, fresh, and sparkling results every single visit — trusted by homeowners and businesses who refuse to settle.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-light">Get a Free Quote</a>
+          <a href="#services" class="btn btn-outline-light">Explore Services</a>
+        </div>
+        <div class="hero-trust">
+          <div class="trust-item">
+            <span class="trust-number" data-count="156">0</span><span class="trust-plus">+</span>
+            <span class="trust-label">Happy Clients</span>
+          </div>
+          <div class="trust-divider"></div>
+          <div class="trust-item">
+            <span class="trust-number">5</span><span class="trust-plus">★</span>
+            <span class="trust-label">Google Rating</span>
+          </div>
+          <div class="trust-divider"></div>
+          <div class="trust-item">
+            <span class="trust-number">100</span><span class="trust-plus">%</span>
+            <span class="trust-label">Satisfaction</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual" data-reveal data-delay="200">
+        <div class="hero-glow-ring"></div>
+        <div class="hero-img-wrap">
+          <img src="untitled folder/logo.JPG" alt="Crafty Cleaning LLC — Alyssa" class="hero-logo" />
+        </div>
+        <div class="hero-badge">
+          <span class="badge-star">✦</span>
+          <span>Insured &amp; Trusted</span>
+        </div>
+        <div class="hero-sparkle hero-sparkle-1">✦</div>
+        <div class="hero-sparkle hero-sparkle-2">✦</div>
+        <div class="hero-sparkle hero-sparkle-3">✦</div>
+      </div>
+    </div>
+
+    <a href="#about" class="hero-scroll" aria-label="Scroll down">
+      <span class="scroll-label">Scroll</span>
+      <div class="scroll-track"><div class="scroll-thumb"></div></div>
+    </a>
+  </section>
+
+  <!-- ============================================================
+       MARQUEE
+  ============================================================ -->
+  <div class="marquee-wrap">
+    <div class="marquee-inner">
+      <div class="marquee-track">
+        <span>✦ Residential Cleaning</span>
+        <span>✦ Deep Cleaning</span>
+        <span>✦ Move-In / Move-Out</span>
+        <span>✦ Commercial Spaces</span>
+        <span>✦ Post-Construction</span>
+        <span>✦ Eco-Friendly Products</span>
+        <span>✦ Satisfaction Guaranteed</span>
+        <span>✦ Fully Insured</span>
+        <span>✦ Residential Cleaning</span>
+        <span>✦ Deep Cleaning</span>
+        <span>✦ Move-In / Move-Out</span>
+        <span>✦ Commercial Spaces</span>
+        <span>✦ Post-Construction</span>
+        <span>✦ Eco-Friendly Products</span>
+        <span>✦ Satisfaction Guaranteed</span>
+        <span>✦ Fully Insured</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       ABOUT
+  ============================================================ -->
+  <section class="about section-pad" id="about">
+    <!-- Decorative animated cleaning tools -->
+    <div class="about-deco" aria-hidden="true">
+      <div class="deco-tool deco-spray">
+        <svg viewBox="0 0 60 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="20" y="40" width="22" height="50" rx="4" fill="var(--lavender-lt)" stroke="var(--lavender)" stroke-width="2"/>
+          <rect x="26" y="28" width="10" height="16" rx="2" fill="var(--lavender)" stroke="var(--purple)" stroke-width="1.5"/>
+          <path d="M36 34 Q50 30 52 20" stroke="var(--purple)" stroke-width="2" fill="none" stroke-linecap="round"/>
+          <circle cx="53" cy="18" r="3" fill="var(--pink)" opacity="0.7"/>
+          <rect x="28" y="55" width="6" height="20" rx="3" fill="var(--lavender)" opacity="0.5"/>
+        </svg>
+      </div>
+      <div class="deco-tool deco-broom">
+        <svg viewBox="0 0 40 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="18" y="0" width="4" height="70" rx="2" fill="var(--purple)" opacity="0.35"/>
+          <ellipse cx="20" cy="78" rx="18" ry="8" fill="var(--lavender)" stroke="var(--purple)" stroke-width="1.5" opacity="0.6"/>
+          <path d="M4 74 Q10 90 8 100" stroke="var(--lavender)" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5"/>
+          <path d="M14 75 Q16 92 14 102" stroke="var(--lavender)" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5"/>
+          <path d="M24 75 Q26 92 26 102" stroke="var(--lavender)" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5"/>
+          <path d="M34 74 Q32 90 34 100" stroke="var(--lavender)" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5"/>
+        </svg>
+      </div>
+      <div class="deco-tool deco-bubbles">
+        <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="60" r="16" stroke="var(--pink)" stroke-width="1.5" opacity="0.25"/>
+          <circle cx="19" cy="56" r="4" fill="white" opacity="0.4"/>
+          <circle cx="52" cy="40" r="22" stroke="var(--lavender)" stroke-width="1.5" opacity="0.2"/>
+          <circle cx="50" cy="34" r="5" fill="white" opacity="0.35"/>
+          <circle cx="10" cy="20" r="8" stroke="var(--purple)" stroke-width="1.5" opacity="0.2"/>
+          <circle cx="9" cy="17" r="2" fill="white" opacity="0.4"/>
+        </svg>
+      </div>
+      <div class="deco-tool deco-mop">
+        <svg viewBox="0 0 40 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="18" y="0" width="4" height="65" rx="2" fill="var(--purple-mid)" opacity="0.3"/>
+          <ellipse cx="20" cy="72" rx="17" ry="6" fill="var(--lavender-lt)" stroke="var(--lavender)" stroke-width="1.5" opacity="0.7"/>
+          <path d="M5 72 Q8 85 6 100" stroke="var(--lavender)" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.45"/>
+          <path d="M12 73 Q14 87 13 102" stroke="var(--lavender)" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.45"/>
+          <path d="M20 74 Q21 88 21 103" stroke="var(--lavender)" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.45"/>
+          <path d="M28 73 Q29 87 30 102" stroke="var(--lavender)" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.45"/>
+          <path d="M35 72 Q36 86 38 100" stroke="var(--lavender)" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.45"/>
+        </svg>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual-col" data-reveal>
+          <div class="about-img-frame">
+            <div class="about-img-bg"></div>
+            <img src="untitled folder/logo.JPG" alt="Alyssa — Owner of Crafty Cleaning LLC" class="about-img" />
+            <div class="about-float-card">
+              <span class="float-icon"><svg class="icon-svg icon-spin-slow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg></span>
+              <div class="float-text">
+                <strong>Owner Operated</strong>
+                <small>Personal attention every visit</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-copy" data-reveal data-delay="150">
+          <span class="section-eyebrow">About Alyssa</span>
+          <h2>Born to Clean.<br /><em>Destined for This.</em></h2>
+
+          <div class="about-story">
+            <p>Hi, I'm <strong>Alyssa</strong> — the heart and hands behind Crafty Cleaning LLC. I have always had a passion for cleaning. Even as a kid, when my punishment was chores... I actually enjoyed them.</p>
+            <p class="about-story-highlight">"I used to tell my sisters not to clean their rooms for weeks — just so I could have a bigger mess to tackle."</p>
+            <p>This was always the job destined for me. I take so much joy in bringing peace back to spaces that often cause stress — and delivering results that genuinely make people's lives better.</p>
+          </div>
+
+          <div class="about-pillars">
+            <div class="pillar-item">
+              <div class="pillar-icon-wrap"><svg class="icon-svg icon-bounce" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C12 2 5 10 5 15a7 7 0 0 0 14 0C19 10 12 2 12 2z"/></svg></div>
+              <div>
+                <strong>Eco-Friendly Products</strong>
+                <small>Safe for kids, pets &amp; the planet</small>
+              </div>
+            </div>
+            <div class="pillar-item">
+              <div class="pillar-icon-wrap"><svg class="icon-svg icon-pulse" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+              <div>
+                <strong>Fully Insured</strong>
+                <small>Complete peace of mind</small>
+              </div>
+            </div>
+            <div class="pillar-item">
+              <div class="pillar-icon-wrap"><svg class="icon-svg icon-tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+              <div>
+                <strong>On Time, Every Time</strong>
+                <small>Reliable &amp; consistent</small>
+              </div>
+            </div>
+            <div class="pillar-item">
+              <div class="pillar-icon-wrap"><svg class="icon-svg icon-spin-slow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6z"/></svg></div>
+              <div>
+                <strong>Detail-Obsessed</strong>
+                <small>Nothing gets missed</small>
+              </div>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-primary">Work With Alyssa</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SERVICES
+  ============================================================ -->
+  <section class="services section-pad" id="services">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-eyebrow">What We Offer</span>
+        <h2>Services Tailored<br /><em>for Your Space</em></h2>
+        <p>From weekly maintenance to full deep cleans, every service is customized to your space and delivered with exceptional care.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card" data-reveal>
+          <div class="service-icon-bg"><svg class="icon-svg icon-bob" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+          <h3>Residential Cleaning</h3>
+          <p>Keep your home looking and feeling its absolute best — week after week, without the hassle.</p>
+          <ul class="service-list">
+            <li>Kitchen &amp; Bathrooms</li>
+            <li>Dusting &amp; Vacuuming</li>
+            <li>Floor Mopping</li>
+            <li>Trash Removal</li>
+          </ul>
+          <a href="#contact" class="service-cta">Book This Service <span class="arrow">→</span></a>
+        </div>
+
+        <div class="service-card service-featured" data-reveal data-delay="100">
+          <div class="service-popular-badge">Most Popular</div>
+          <div class="service-icon-bg"><svg class="icon-svg icon-shimmer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.937A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.582a.5.5 0 0 1 0 .963L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg></div>
+          <h3>Deep Cleaning</h3>
+          <p>A top-to-bottom clean that reaches every corner, crevice, and surface in your home.</p>
+          <ul class="service-list">
+            <li>Inside Appliances</li>
+            <li>Baseboards &amp; Trim</li>
+            <li>Cabinet Interiors</li>
+            <li>Everything &amp; More</li>
+          </ul>
+          <a href="#contact" class="service-cta">Book This Service <span class="arrow">→</span></a>
+        </div>
+
+        <div class="service-card" data-reveal data-delay="200">
+          <div class="service-icon-bg"><svg class="icon-svg icon-bob" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg></div>
+          <h3>Move In / Move Out</h3>
+          <p>Leave the old place perfect or arrive to a pristine new home — deposit-ready results, every time.</p>
+          <ul class="service-list">
+            <li>Full Property Clean</li>
+            <li>Inside Cabinets &amp; Drawers</li>
+            <li>Window Sills &amp; Tracks</li>
+            <li>Deposit-Ready Results</li>
+          </ul>
+          <a href="#contact" class="service-cta">Book This Service <span class="arrow">→</span></a>
+        </div>
+
+        <div class="service-card" data-reveal data-delay="300">
+          <div class="service-icon-bg"><svg class="icon-svg icon-bob" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="1"/><path d="M9 22v-4h6v4"/><path d="M8 6h.01M8 10h.01M8 14h.01M16 6h.01M16 10h.01M16 14h.01M12 6h.01M12 10h.01M12 14h.01"/></svg></div>
+          <h3>Commercial Cleaning</h3>
+          <p>Keep your workspace professional, healthy, and welcoming for employees and clients alike.</p>
+          <ul class="service-list">
+            <li>Offices &amp; Suites</li>
+            <li>Break Rooms &amp; Lobbies</li>
+            <li>Restroom Sanitation</li>
+            <li>Custom Schedules</li>
+          </ul>
+          <a href="#contact" class="service-cta">Book This Service <span class="arrow">→</span></a>
+        </div>
+
+        <div class="service-card" data-reveal data-delay="400">
+          <div class="service-icon-bg"><svg class="icon-svg icon-wobble" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
+          <h3>Post-Construction</h3>
+          <p>Construction dust and debris don't stand a chance. We'll make your newly renovated space move-in ready.</p>
+          <ul class="service-list">
+            <li>Dust &amp; Debris Removal</li>
+            <li>Window Cleaning</li>
+            <li>Surface Polish</li>
+            <li>Final Walkthrough</li>
+          </ul>
+          <a href="#contact" class="service-cta">Book This Service <span class="arrow">→</span></a>
+        </div>
+
+        <div class="service-card" data-reveal data-delay="500">
+          <div class="service-icon-bg"><svg class="icon-svg icon-sway" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg></div>
+          <h3>Eco-Friendly Cleaning</h3>
+          <p>Non-toxic, sustainable products that are safe for children, pets, and the environment.</p>
+          <ul class="service-list">
+            <li>Non-Toxic Solutions</li>
+            <li>Pet-Safe Products</li>
+            <li>Allergen-Reducing Methods</li>
+            <li>Sustainable Practices</li>
+          </ul>
+          <a href="#contact" class="service-cta">Book This Service <span class="arrow">→</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       WHY US
+  ============================================================ -->
+  <section class="why-us section-pad">
+    <div class="why-us-bg">
+      <div class="why-orb why-orb-1"></div>
+      <div class="why-orb why-orb-2"></div>
+    </div>
+    <div class="container">
+      <div class="section-header section-header-light" data-reveal>
+        <span class="section-eyebrow eyebrow-light">Why Crafty Cleaning</span>
+        <h2>The Difference Is<br /><em>In the Details</em></h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-card" data-reveal>
+          <div class="why-number">01</div>
+          <h4>Personally Vetted &amp; Insured</h4>
+          <p>Your home's security matters. Every service is fully insured so you have complete peace of mind from the moment we arrive.</p>
+        </div>
+        <div class="why-card" data-reveal data-delay="100">
+          <div class="why-number">02</div>
+          <h4>Consistent Quality</h4>
+          <p>We follow a detailed cleaning checklist every single visit to make sure nothing — not even a corner — is ever missed.</p>
+        </div>
+        <div class="why-card" data-reveal data-delay="200">
+          <div class="why-number">03</div>
+          <h4>Satisfaction Guaranteed</h4>
+          <p>Not completely happy? We'll come back and make it right — no questions, no hassle, no extra charge. That's our promise.</p>
+        </div>
+        <div class="why-card" data-reveal data-delay="300">
+          <div class="why-number">04</div>
+          <h4>Flexible Scheduling</h4>
+          <p>Morning, afternoon, weekends — we work around your life, not the other way around. Booking is always simple and stress-free.</p>
+        </div>
+        <div class="why-card" data-reveal data-delay="400">
+          <div class="why-number">05</div>
+          <h4>Transparent Pricing</h4>
+          <p>No hidden fees, no surprise charges. You'll know exactly what you're paying before a single product is touched.</p>
+        </div>
+        <div class="why-card" data-reveal data-delay="500">
+          <div class="why-number">06</div>
+          <h4>Owner-Led Service</h4>
+          <p>Alyssa personally oversees every job. You're not getting a random crew — you're getting dedicated, expert care every time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       HOW IT WORKS
+  ============================================================ -->
+  <section class="process section-pad" id="process">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-eyebrow">Simple &amp; Easy</span>
+        <h2>How It Works</h2>
+        <p>Booking your clean is quick, easy, and completely stress-free. Here's what to expect from start to finish.</p>
+      </div>
+      <div class="process-track">
+        <div class="process-line"></div>
+        <div class="process-step" data-reveal>
+          <div class="step-circle"><span>1</span></div>
+          <h4>Request a Quote</h4>
+          <p>Fill out our quick form or send us a message with your space details and needs.</p>
+        </div>
+        <div class="process-step" data-reveal data-delay="150">
+          <div class="step-circle"><span>2</span></div>
+          <h4>Get Your Custom Plan</h4>
+          <p>We'll reach out quickly with a personalized quote and the perfect service package.</p>
+        </div>
+        <div class="process-step" data-reveal data-delay="300">
+          <div class="step-circle"><span>3</span></div>
+          <h4>We Come To You</h4>
+          <p>Our team arrives on time, fully equipped, ready to deliver an exceptional clean.</p>
+        </div>
+        <div class="process-step" data-reveal data-delay="450">
+          <div class="step-circle"><span>4</span></div>
+          <h4>Enjoy Your Space</h4>
+          <p>Relax in your fresh, sparkling clean environment. It really is that simple.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       BEFORE & AFTER GALLERY
+  ============================================================ -->
+  <section class="gallery-section section-pad" id="gallery">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-eyebrow">Real Results</span>
+        <h2>Before &amp; After —<br /><em>See the Difference</em></h2>
+        <p>Only real, verified transformations. Click "See After" to see the result.</p>
+      </div>
+
+      <div class="ba-cards-row" data-reveal>
+
+        <div class="ba-reveal-card">
+          <span class="ba-room-label">Bedroom</span>
+          <div class="ba-card-inner" data-showing="before">
+            <div class="ba-card-img-wrap">
+              <img class="ba-img ba-img-before active" src="untitled folder/IMG_1475.JPG" alt="Bedroom before cleaning" />
+              <img class="ba-img ba-img-after"         src="untitled folder/IMG_1531.JPG" alt="Bedroom after cleaning" />
+              <span class="ba-state-badge">BEFORE</span>
+            </div>
+            <div class="ba-card-footer">
+              <div class="ba-desc">
+                <strong class="ba-desc-label">Bedroom</strong>
+                <span class="ba-desc-sub">Full move-out clean &amp; clutter removal</span>
+              </div>
+              <button class="ba-reveal-btn">
+                See After <span class="ba-btn-arrow">→</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="ba-reveal-card">
+          <span class="ba-room-label">Kitchen</span>
+          <div class="ba-card-inner" data-showing="before">
+            <div class="ba-card-img-wrap">
+              <img class="ba-img ba-img-before active" src="untitled folder/IMG_1459.JPG" alt="Kitchen before cleaning" />
+              <img class="ba-img ba-img-after"         src="untitled folder/IMG_1460.JPG" alt="Kitchen after cleaning" />
+              <span class="ba-state-badge">BEFORE</span>
+            </div>
+            <div class="ba-card-footer">
+              <div class="ba-desc">
+                <strong class="ba-desc-label">Kitchen</strong>
+                <span class="ba-desc-sub">Deep clean — floors, counters &amp; surfaces</span>
+              </div>
+              <button class="ba-reveal-btn">
+                See After <span class="ba-btn-arrow">→</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="ba-reveal-card">
+          <span class="ba-room-label">Walls &amp; Windows</span>
+          <div class="ba-card-inner" data-showing="before">
+            <div class="ba-card-img-wrap">
+              <img class="ba-img ba-img-before active" src="untitled folder/IMG_1487.JPG" alt="Walls before cleaning" />
+              <img class="ba-img ba-img-after"         src="untitled folder/IMG_1489.JPG" alt="Walls after cleaning" />
+              <span class="ba-state-badge">BEFORE</span>
+            </div>
+            <div class="ba-card-footer">
+              <div class="ba-desc">
+                <strong class="ba-desc-label">Walls &amp; Windows</strong>
+                <span class="ba-desc-sub">Mold, grime &amp; debris fully removed</span>
+              </div>
+              <button class="ba-reveal-btn">
+                See After <span class="ba-btn-arrow">→</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="gallery-note" data-reveal data-delay="200">
+        <span class="gallery-note-icon">✦</span>
+        <p>More before &amp; after photos will be added as jobs are completed. Every transformation is 100% real.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       GOOGLE REVIEWS
+  ============================================================ -->
+  <section class="reviews-section section-pad" id="reviews">
+    <div class="reviews-bg">
+      <div class="reviews-orb"></div>
+    </div>
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-eyebrow">Real, Verified Reviews</span>
+        <h2>Don't Take Our Word<br /><em>For It.</em></h2>
+        <p>Every review is 100% real — written by real clients on Google. No fake testimonials, ever.</p>
+      </div>
+
+      <div class="google-showcase" data-reveal>
+        <div class="google-rating-block">
+          <div class="google-logo-row">
+            <!-- Google G logo SVG -->
+            <svg class="google-g" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+              <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+              <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
+              <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+            </svg>
+            <div class="google-text">
+              <span class="google-label">Google Reviews</span>
+              <div class="google-stars">★★★★★</div>
+            </div>
+          </div>
+          <div class="google-score">5.0</div>
+          <p class="google-sub">Based on verified Google reviews from real clients</p>
+        </div>
+
+        <div class="google-divider"></div>
+
+        <div class="google-cta-block">
+          <div class="google-cta-text">
+            <h3>See What Our Clients<br />Are Saying</h3>
+            <p>Read every review directly on our Google Business profile — authentic, unfiltered feedback from homeowners and businesses we've served.</p>
+            <div class="google-trust-row">
+              <span class="gtrust-item"><span class="gtrust-icon">✓</span> Real clients only</span>
+              <span class="gtrust-item"><span class="gtrust-icon">✓</span> Verified by Google</span>
+              <span class="gtrust-item"><span class="gtrust-icon">✓</span> Never edited</span>
+            </div>
+          </div>
+          <a href="https://share.google/dud8MLlk3FIQg5nmd" target="_blank" rel="noopener" class="btn btn-primary btn-google">
+            <svg viewBox="0 0 24 24" class="btn-google-icon"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+            Read Our Google Reviews
+          </a>
+          <p class="google-link-note">Link will open your Google Business profile</p>
+        </div>
+      </div>
+
+      <!-- Real review card -->
+      <div class="real-review-card" data-reveal data-delay="200">
+        <div class="rr-quote-icon">
+          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 8C6.686 8 4 10.686 4 14v2c0 3.314 2.686 6 6 6h.5v3.5a.5.5 0 0 0 .854.354L15.207 22H16c3.314 0 6-2.686 6-6v-2c0-3.314-2.686-6-6-6H10z" fill="currentColor" opacity=".15"/><path d="M6 13a6 6 0 0 1 6-6h.5V5.5A.5.5 0 0 0 11.646 5.146L7.793 9H7A6 6 0 0 0 1 15v2a6 6 0 0 0 6 6h.5v3.5a.5.5 0 0 0 .854.354L12.207 23" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="rr-stars">★★★★★</div>
+        <p class="rr-text">"PLACEHOLDER — Paste your real Google review text here."</p>
+        <div class="rr-author">
+          <div class="rr-avatar">R</div>
+          <div>
+            <strong class="rr-name">Reviewer Name</strong>
+            <span class="rr-meta">Google Review · Verified</span>
+          </div>
+          <svg class="rr-google-g" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SERVICE AREA
+  ============================================================ -->
+  <section class="service-area section-pad" id="service-area">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-eyebrow">Coverage</span>
+        <h2>Proudly Serving<br /><em>All of Jacksonville</em></h2>
+        <p>Based in Jacksonville, FL — Crafty Cleaning serves the entire city and surrounding communities with the same care and quality every time.</p>
+      </div>
+
+      <div class="sa-layout" data-reveal>
+        <div class="sa-map-wrap">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d434272.15!2d-81.87506!3d30.33218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e5b716f1ceafeb%3A0xc4cd7d3896fcc7aa!2sJacksonville%2C%20FL!5e0!3m2!1sen!2sus!4v1699000000000!5m2!1sen!2sus"
+            width="100%" height="100%"
+            style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Crafty Cleaning LLC Service Area — Jacksonville, FL">
+          </iframe>
+        </div>
+
+        <div class="sa-info">
+          <div class="sa-fee-box">
+            <div class="sa-fee-row">
+              <div class="sa-fee-item sa-fee-local">
+                <span class="sa-fee-icon"><svg class="icon-svg icon-bounce" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+                <div>
+                  <strong>Within 15 Miles</strong>
+                  <span>Standard pricing — no extra fees</span>
+                </div>
+              </div>
+              <div class="sa-fee-divider"></div>
+              <div class="sa-fee-item sa-fee-travel">
+                <span class="sa-fee-icon"><svg class="icon-svg icon-bob" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13" rx="2"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></span>
+                <div>
+                  <strong>Beyond 15 Miles</strong>
+                  <span>$50 travel fee applies</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <p class="sa-neighborhoods-label">Areas We Serve</p>
+            <div class="sa-pills">
+              <span class="sa-pill">Downtown</span>
+              <span class="sa-pill">Southside</span>
+              <span class="sa-pill">Northside</span>
+              <span class="sa-pill">Westside</span>
+              <span class="sa-pill">Arlington</span>
+              <span class="sa-pill">San Marco</span>
+              <span class="sa-pill">Mandarin</span>
+              <span class="sa-pill">Riverside</span>
+              <span class="sa-pill">Avondale</span>
+              <span class="sa-pill">Fleming Island</span>
+              <span class="sa-pill">Orange Park</span>
+              <span class="sa-pill">Neptune Beach</span>
+              <span class="sa-pill">Atlantic Beach</span>
+              <span class="sa-pill">Jacksonville Beach</span>
+              <span class="sa-pill">& Surrounding Areas</span>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn btn-primary">Book Your Clean →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CTA BANNER
+  ============================================================ -->
+  <section class="cta-band">
+    <div class="cta-band-bg">
+      <div class="cta-orb cta-orb-1"></div>
+      <div class="cta-orb cta-orb-2"></div>
+    </div>
+    <div class="container cta-band-inner">
+      <div class="cta-band-text" data-reveal>
+        <h2>Ready for a Spotless Space?</h2>
+        <p>Book your clean today and experience the Crafty Cleaning difference. Satisfaction is 100% guaranteed.</p>
+      </div>
+      <a href="#contact" class="btn btn-light btn-cta-band" data-reveal data-delay="200">Get My Free Quote →</a>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT
+  ============================================================ -->
+  <section class="contact section-pad" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-left" data-reveal>
+          <span class="section-eyebrow">Get In Touch</span>
+          <h2>Book Your Clean<br /><em>Today</em></h2>
+          <p>Fill out the form and Alyssa will reach out within 24 hours with your custom quote and everything you need to get started.</p>
+
+          <div class="contact-info-list">
+            <a href="tel:+19044142494" class="contact-info-item">
+              <div class="contact-icon-wrap"><svg class="icon-svg icon-ring" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.28h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+              <div>
+                <strong>Phone</strong>
+                <span>(904) 414-2494</span>
+              </div>
+            </a>
+            <a href="mailto:Craftycleaner.llc@gmail.com" class="contact-info-item">
+              <div class="contact-icon-wrap"><svg class="icon-svg icon-bob" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+              <div>
+                <strong>Email</strong>
+                <span>Craftycleaner.llc@gmail.com</span>
+              </div>
+            </a>
+            <div class="contact-info-item">
+              <div class="contact-icon-wrap"><svg class="icon-svg icon-bounce" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+              <div>
+                <strong>Service Area</strong>
+                <span>Jacksonville, FL &amp; Surrounding Areas</span>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-icon-wrap"><svg class="icon-svg icon-tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+              <div>
+                <strong>Hours</strong>
+                <span>Mon – Sat: 8am – 6pm</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-socials">
+            <a href="#" class="social-btn" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-right" data-reveal data-delay="150">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Jane" required />
+              </div>
+              <div class="form-field">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Smith" required />
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="jane@email.com" required />
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="(555) 000-0000" />
+            </div>
+            <div class="form-field">
+              <label for="service">Service Needed</label>
+              <select id="service" name="service" required>
+                <option value="" disabled selected>Select a service…</option>
+                <option>Residential Cleaning</option>
+                <option>Deep Cleaning</option>
+                <option>Move In / Move Out</option>
+                <option>Commercial Cleaning</option>
+                <option>Post-Construction</option>
+                <option>Eco-Friendly Cleaning</option>
+                <option>Other / Not Sure</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="message">Tell Us About Your Space</label>
+              <textarea id="message" name="message" rows="4" placeholder="Square footage, bedrooms/bathrooms, any special requests…"></textarea>
+            </div>
+            <p class="form-send-label">How would you like to send your request?</p>
+            <div class="form-send-row">
+              <button type="button" class="btn btn-primary btn-send-half" id="sendViaSms">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.28h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                Send as Text
+              </button>
+              <button type="button" class="btn btn-send-email btn-send-half" id="sendViaEmail">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                Send as Email
+              </button>
+            </div>
+            <p class="form-note">Opens your Messages or Mail app — just tap Send.</p>
+          </form>
+          <div class="form-success" id="formSuccess">
+            <div class="success-icon-wrap">✦</div>
+            <h3>Almost There!</h3>
+            <p>Your Messages app should have opened with everything pre-filled. Just tap <strong>Send</strong> and Alyssa will get back to you within 24 hours!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container footer-top-inner">
+        <div class="footer-brand">
+          <img src="untitled folder/logo.JPG" alt="Crafty Cleaning LLC" class="footer-logo" />
+          <p>Professional cleaning services delivered with care, craftsmanship, and a commitment to your complete satisfaction.</p>
+        </div>
+        <div class="footer-nav">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="#about">About Alyssa</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#process">How It Works</a></li>
+            <li><a href="#service-area">Service Area</a></li>
+            <li><a href="#reviews">Google Reviews</a></li>
+            <li><a href="#contact">Book Now</a></li>
+          </ul>
+        </div>
+        <div class="footer-services">
+          <h5>Services</h5>
+          <ul>
+            <li>Residential Cleaning</li>
+            <li>Deep Cleaning</li>
+            <li>Move In / Move Out</li>
+            <li>Commercial Cleaning</li>
+            <li>Post-Construction</li>
+            <li>Eco-Friendly Options</li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h5>Contact</h5>
+          <p><a href="tel:+19044142494">(904) 414-2494</a></p>
+          <p><a href="mailto:Craftycleaner.llc@gmail.com">Craftycleaner.llc@gmail.com</a></p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2026 Crafty Cleaning LLC — Alyssa. All rights reserved.</p>
+        <p>Crafted with <span class="heart">♥</span> for sparkling spaces.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
